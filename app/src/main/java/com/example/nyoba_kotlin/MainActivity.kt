@@ -53,7 +53,7 @@ fun Greeting(fullName: String, title: String, wa: String, ig: String, dribbble: 
             modifier = Modifier
                 .size(100.dp)
                 .padding(bottom = 12.dp))
-        
+
         Text(
             text = fullName,
             modifier = modifier,
@@ -81,7 +81,7 @@ fun Greeting(fullName: String, title: String, wa: String, ig: String, dribbble: 
                 painter = painterResource(id = R.drawable.wa),
                 contentDescription = null,
                 modifier = Modifier.size(20.dp)
-                )
+            )
             Text(
                 text = wa,
                 modifier = modifier,
@@ -136,7 +136,6 @@ fun Greeting(fullName: String, title: String, wa: String, ig: String, dribbble: 
 
         }
     }
-
 }
 
 @Preview(showBackground = true)
